@@ -1,0 +1,38 @@
+/* ----------- Box Model ----------- */
+.caixa {
+    width: 300px;               /* largura */
+    height: 100px;              /* altura */
+    background-color: lightblue; 
+    padding: 20px;              /* espaço interno */
+    border: 3px solid navy;     /* borda */
+    margin: 20px auto;          /* margem externa */
+    text-align: center;
+}
+
+/* ----------- Inline ----------- */
+.inline {
+    background-color: yellow;
+    border: 1px solid black;
+    padding: 2px;
+}
+
+/* ----------- Block ----------- */
+.bloco {
+    background-color: pink;
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px solid red;
+}
+
+/* ----------- Inline-Block ----------- */
+.card {
+    display: inline-block;        /* ficam lado a lado */
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    background-color: lightgreen;
+    border: 2px solid darkgreen;
+    text-align: center;
+    vertical-align: top;
+}

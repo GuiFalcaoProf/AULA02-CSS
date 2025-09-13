@@ -1,0 +1,65 @@
+/* Corpo da página */
+body {
+    background-color: #f4f4f9;
+    margin: 0;
+    height: 100vh;              /* ocupa a altura toda da tela */
+    display: flex;              /* ativa flexbox */
+    justify-content: center;    /* centraliza no eixo horizontal */
+    align-items: center;        /* centraliza no eixo vertical */
+}
+
+/* Container dos cards */
+.container {
+    text-align: center;
+}
+
+/* Card do perfil */
+.card {
+    width: 250px;
+    border: 2px solid #333;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block; /* deixa os cards lado a lado */
+    background-color: #fff;
+}
+
+/* Foto de perfil */
+.foto {
+    width: 120px;
+    height: 120px;
+    border: 3px solid #6c63ff;
+    margin: 10px;
+}
+
+/* Nome dos usuários */
+#nome1, #nome2, #nome3 {
+    color: #333;
+    margin: 5px;
+}
+
+/* Bio */
+.bio {
+    font-size: 14px;
+    color: #666;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Botões */
+.seguir, .msg {
+    padding: 8px 12px;
+    margin: 5px;
+    border: 1px solid #333;
+    cursor: pointer;
+}
+
+.seguir {
+    background-color: #6c63ff;
+    color: white;
+}
+
+.msg {
+    background-color: #eee;
+    color: #333;
+}

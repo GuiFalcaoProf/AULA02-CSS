@@ -5,7 +5,7 @@
     background-color: lightblue; 
     padding: 20px;              /* espaço interno */
     border: 3px solid navy;     /* borda */
-    margin: 20px auto;          /* margem externa */
+    margin: 40px auto;          /* margem externa */
     text-align: center;
 }
 
@@ -14,6 +14,7 @@
     background-color: yellow;
     border: 1px solid black;
     padding: 2px;
+    
 }
 
 /* ----------- Block ----------- */

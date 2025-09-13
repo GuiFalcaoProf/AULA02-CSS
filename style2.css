@@ -1,0 +1,37 @@
+/* Caixa simulando um post de rede social */
+.post {
+    width: 300px;                /* largura fixa */
+    background-color: #f9f9f9;   /* cor de fundo (content) */
+    padding: 15px;               /* espaço interno */
+    border: 3px solid #3b5998;   /* borda (azul) */
+    margin: 20px auto;           /* margem para afastar e centralizar */
+    border-radius: 10px;         /* cantos arredondados */
+    font-family: Arial, sans-serif;
+}
+
+/* Estilizando o nome do usuário */
+.post h2 {
+    margin: 0 0 10px 0;          /* margem só embaixo */
+    color: #3b5998;
+}
+
+/* Botões dentro do post */
+button {
+    margin: 5px;                 /* espaço externo entre botões */
+    padding: 8px 12px;           /* espaço interno (tamanho do botão) */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Botão curtir */
+.curtir {
+    background-color: #ff4d6d;
+    color: white;
+}
+
+/* Botão comentar */
+.comentar {
+    background-color: #0077ff;
+    color: white;
+}
